@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import sys
+
+def getNumber():
+    l = sys.stdin.readline()
+    return float(l.strip())
+
+
+x = getNumber()
+y = getNumber()
+print(x + y)
+
